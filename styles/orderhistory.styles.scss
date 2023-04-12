@@ -1,0 +1,32 @@
+.orderhistory {
+  .orderHistory-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+    padding: 1em 0;
+    border-bottom: 1px solid #D1D1D1;
+    align-items: center;
+    .btn {
+      border: 1px solid #EF7F1A;
+      color: #EF7F1A;
+      background-color: #fff;
+      transition: 1s ease;
+
+      &:hover {
+        border: 1px solid #EF7F1A;
+        color: #fff;
+        background-color: #EF7F1A;
+        transition: 1s ease;
+      }
+    }
+  }
+  .orderHistory-item--order-img {
+    display: flex;
+    overflow-y: scroll;
+    width: 85%;
+    img {
+      margin: 0 0.5em ;
+      width: 100px;
+    }
+  }
+}

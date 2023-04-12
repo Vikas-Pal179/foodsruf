@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="19px" viewBox="0 0 22 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>IconError</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="UI-Controls" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="StyleGuide---Page-10" transform="translate(-131.000000, -524.000000)">
+            <g id="IconError" transform="translate(132.000000, 525.000000)">
+                <path d="M10.6125815,0.460865854 C10.2489474,-0.153621951 9.65353276,-0.153621951 9.29031325,0.460865854 L0.160069346,15.878622 C-0.203150166,16.4918659 0.0729961756,16.9948171 0.773727883,16.9948171 L19.1287523,16.9948171 C19.829484,16.9948171 20.106045,16.4918659 19.7428254,15.878622 L10.6125815,0.460865854 L10.6125815,0.460865854 Z" id="Stroke-1667" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" fill="#FFFFFF"></path>
+                <path d="M9.95,7 L9.95,11.5" id="Stroke-1665" stroke="#EB1D00" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M11,13.9981928 C11,14.5512048 10.5493976,15 10.0018072,15 C9.44638554,15 9,14.5512048 9,13.9981928 C9,13.4493976 9.44638554,13 10.0018072,13 C10.5493976,13 11,13.4493976 11,13.9981928" id="Fill-1666" fill="#EB1D00"></path>
+            </g>
+        </g>
+    </g>
+</svg>

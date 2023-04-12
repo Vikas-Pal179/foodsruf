@@ -1,0 +1,90 @@
+.AboutPage {
+  padding: 1em 0;
+  background-color: #fff;
+  p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  b {
+    margin: 0.2em 0;
+  }
+  .col-6 {
+    width: 50%;
+    height: 100%;
+    padding: 0.5em;
+    border-radius: 15px;
+  }
+  
+  .row {
+    justify-content: flex-start
+  }
+  .rowtitle {
+    justify-content: space-between
+  }
+  .iconpng {
+    margin-right: 1em;
+    height: 50px;
+  }
+  .text-block {
+    padding-top: 2em;
+  }
+  .descktor-only {
+    display: block;
+  }
+}
+.about_title {
+  color: #F68B33;
+}
+// @media only screen and (max-width:576px) {
+//   .AboutPage {
+//     .row {
+//       flex-direction: column;
+//     }
+//     .col-6 {
+//       width: 100%;
+//       height: 100%;
+//       padding: 0.5em;
+//       border-radius: 15px;
+//     }
+//   }
+//   .descktor-only {
+//     display: none;
+//   }
+// }
+
+
+@media only screen and (max-width:768px) {
+  .AboutPage {
+    .row {
+      flex-direction: column;
+    }
+    .col-6 {
+      width: 100%;
+      height: 100%;
+      padding: 0.5em;
+      border-radius: 15px;
+    }
+    .text-block .row{
+      flex-direction: row;
+    }
+    .dilivery .row {
+      flex-direction: row;
+    }
+    .descktor-only {
+      display: none;
+    }
+  }
+  
+}
+@media (max-width: 576px){
+
+  .dilivery-item {
+      width: 100%;
+      padding: 0 0.5em;
+
+  }
+  .dilivery .row {
+      flex-direction: column !important;
+  }
+
+}

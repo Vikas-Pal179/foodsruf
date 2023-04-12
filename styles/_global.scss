@@ -1,0 +1,583 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import "slick-carousel/slick/slick.scss";
+@import "slick-carousel/slick/slick-theme.scss";
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/assets/fonts/Montserrat-Light.eot');
+	src: local('Montserrat Light'), local('Montserrat-Light'),
+		url('/static/assets/fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
+		url('/static/assets/fonts/Montserrat-Light.woff') format('woff'),
+		url('/static/assets/fonts/Montserrat-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/assets/fonts/Montserrat-MediumItalic.eot');
+	src: local('Montserrat Medium Italic'), local('Montserrat-MediumItalic'),
+		url('/static/assets/fonts/Montserrat-MediumItalic.eot?#iefix') format('embedded-opentype'),
+		url('/static/assets/fonts/Montserrat-MediumItalic.woff') format('woff'),
+		url('/static/assets/fonts/Montserrat-MediumItalic.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/assets/fonts/Montserrat-Thin.eot');
+	src: local('Montserrat Thin'), local('Montserrat-Thin'),
+		url('/static/assets/fonts/Montserrat-Thin.eot?#iefix') format('embedded-opentype'),
+		url('/static/assets/fonts/Montserrat-Thin.woff') format('woff'),
+		url('/static/assets/fonts/Montserrat-Thin.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/assets/fonts/Montserrat-ExtraLightItalic.eot');
+	src: local('Montserrat ExtraLight Italic'), local('Montserrat-ExtraLightItalic'),
+		url('/static/assets/fonts/Montserrat-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+		url('/static/assets/fonts/Montserrat-ExtraLightItalic.woff') format('woff'),
+		url('/static/assets/fonts/Montserrat-ExtraLightItalic.ttf') format('truetype');
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/assets/fonts/Montserrat-BoldItalic.eot');
+	src: local('Montserrat Bold Italic'), local('Montserrat-BoldItalic'),
+		url('/static/assets/fonts/Montserrat-BoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('/static/assets/fonts/Montserrat-BoldItalic.woff') format('woff'),
+		url('/static/assets/fonts/Montserrat-BoldItalic.ttf') format('truetype');
+	font-weight: bold;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/assets/fonts/Montserrat-SemiBold.eot');
+	src: local('Montserrat SemiBold'), local('Montserrat-SemiBold'),
+		url('/static/assets/fonts/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+		url('/static/assets/fonts/Montserrat-SemiBold.woff') format('woff'),
+		url('/static/assets/fonts/Montserrat-SemiBold.ttf') format('truetype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/assets/fonts/Montserrat-ExtraLight.eot');
+	src: local('Montserrat ExtraLight'), local('Montserrat-ExtraLight'),
+		url('/static/assets/fonts/Montserrat-ExtraLight.eot?#iefix') format('embedded-opentype'),
+		url('/static/assets/fonts/Montserrat-ExtraLight.woff') format('woff'),
+		url('/static/assets/fonts/Montserrat-ExtraLight.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/assets/fonts/Montserrat-ExtraBoldItalic.eot');
+	src: local('Montserrat ExtraBold Italic'), local('Montserrat-ExtraBoldItalic'),
+		url('/static/assets/fonts/Montserrat-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('/static/assets/fonts/Montserrat-ExtraBoldItalic.woff') format('woff'),
+		url('/static/assets/fonts/Montserrat-ExtraBoldItalic.ttf') format('truetype');
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/assets/fonts/Montserrat-Italic.eot');
+	src: local('Montserrat Italic'), local('Montserrat-Italic'),
+		url('/static/assets/fonts/Montserrat-Italic.eot?#iefix') format('embedded-opentype'),
+		url('/static/assets/fonts/Montserrat-Italic.woff') format('woff'),
+		url('/static/assets/fonts/Montserrat-Italic.ttf') format('truetype');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/assets/fonts/Montserrat-Bold.eot');
+	src: local('Montserrat Bold'), local('Montserrat-Bold'),
+		url('/static/assets/fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),
+		url('/static/assets/fonts/Montserrat-Bold.woff') format('woff'),
+		url('/static/assets/fonts/Montserrat-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/assets/fonts/Montserrat-LightItalic.eot');
+	src: local('Montserrat Light Italic'), local('Montserrat-LightItalic'),
+		url('/static/assets/fonts/Montserrat-LightItalic.eot?#iefix') format('embedded-opentype'),
+		url('/static/assets/fonts/Montserrat-LightItalic.woff') format('woff'),
+		url('/static/assets/fonts/Montserrat-LightItalic.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/assets/fonts/Montserrat-BlackItalic.eot');
+	src: local('Montserrat Black Italic'), local('Montserrat-BlackItalic'),
+		url('/static/assets/fonts/Montserrat-BlackItalic.eot?#iefix') format('embedded-opentype'),
+		url('/static/assets/fonts/Montserrat-BlackItalic.woff') format('woff'),
+		url('/static/assets/fonts/Montserrat-BlackItalic.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/assets/fonts/Montserrat-SemiBoldItalic.eot');
+	src: local('Montserrat SemiBold Italic'), local('Montserrat-SemiBoldItalic'),
+		url('/static/assets/fonts/Montserrat-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+		url('/static/assets/fonts/Montserrat-SemiBoldItalic.woff') format('woff'),
+		url('/static/assets/fonts/Montserrat-SemiBoldItalic.ttf') format('truetype');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/assets/fonts/Montserrat-Regular.eot');
+	src: local('Montserrat Regular'), local('Montserrat-Regular'),
+		url('/static/assets/fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+		url('/static/assets/fonts/Montserrat-Regular.woff') format('woff'),
+		url('/static/assets/fonts/Montserrat-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/assets/fonts/Montserrat-Medium.eot');
+	src: local('Montserrat Medium'), local('Montserrat-Medium'),
+		url('/static/assets/fonts/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+		url('/static/assets/fonts/Montserrat-Medium.woff') format('woff'),
+		url('/static/assets/fonts/Montserrat-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/assets/fonts/Montserrat-ExtraBold.eot');
+	src: local('Montserrat ExtraBold'), local('Montserrat-ExtraBold'),
+		url('/static/assets/fonts/Montserrat-ExtraBold.eot?#iefix') format('embedded-opentype'),
+		url('/static/assets/fonts/Montserrat-ExtraBold.woff') format('woff'),
+		url('/static/assets/fonts/Montserrat-ExtraBold.ttf') format('truetype');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/assets/fonts/Montserrat-Black.eot');
+	src: local('Montserrat Black'), local('Montserrat-Black'),
+		url('/static/assets/fonts/Montserrat-Black.eot?#iefix') format('embedded-opentype'),
+		url('/static/assets/fonts/Montserrat-Black.woff') format('woff'),
+		url('/static/assets/fonts/Montserrat-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Montserrat';
+	src: url('/static/assets/fonts/Montserrat-ThinItalic.eot');
+	src: local('Montserrat Thin Italic'), local('Montserrat-ThinItalic'),
+		url('/static/assets/fonts/Montserrat-ThinItalic.eot?#iefix') format('embedded-opentype'),
+		url('/static/assets/fonts/Montserrat-ThinItalic.woff') format('woff'),
+		url('/static/assets/fonts/Montserrat-ThinItalic.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.container {
+  width: 1280px;
+  margin: 0 auto
+}
+
+.container:after {
+  content: " ";
+  display: block;
+  clear: both
+}
+
+@media only screen and (max-width:1439px) {
+  .not-safari .container {
+      width: 1024px;
+      margin: 0 auto
+  }
+}
+
+@media only screen and (max-width:1424px) {
+  .container {
+      width: 1024px;
+      margin: 0 auto
+  }
+}
+
+@media only screen and (max-width:1279px) {
+  .not-safari .container {
+      width: 960px;
+      margin: 0 auto
+  }
+}
+
+@media only screen and (max-width:1264px) {
+  .container {
+      width: 960px;
+      margin: 0 auto
+  }
+}
+@media only screen and (max-width:960px) {
+  .container {
+      width: 760px;
+      margin: 0 auto
+  }
+}
+@media only screen and (max-width:768px) {
+  .container {
+      width: 540px;
+      margin: 0 auto
+  }
+}
+@media only screen and (max-width:576px) {
+  .container {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0 10px;
+      overflow-x: hidden !important;
+  }
+  
+}
+
+/*
+.container {
+  padding: 0 15px;
+}
+
+@media (min-width: 575.98px){
+  .container {
+    padding: 0 calc(50vw - 270px);
+  }
+}
+
+@media (min-width: 767.98px){
+  .container {
+    padding: 0 calc(50vw - 360px);
+  }
+}
+
+@media (min-width: 991.98px) {
+  .container {
+    padding: 0 calc(50vw - 480px);
+  }
+}
+
+@media (min-width: 1199.98px){
+  .container {
+    padding: 0 calc(50vw - 590px);
+  }
+}*/
+.row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.primary-orange {
+  color: #EF7F1A;
+}
+.primary-blue {
+  color: #28A8C5;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .darks {
+    color: #fff;
+      background-color: #1D1D1D;
+    transition: ease 1s;
+  }
+  .darks .header-first {
+    background-color: #1D1D1D;
+  }
+  .darks .cart-dropdown {
+    background-color: #1D1D1D;
+    box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 3px;
+    transition: ease 1s;
+  }
+  .darks .cart-item .item-details .amount-control__quantity-value {
+    color: #fff;
+  }
+  .darks .svg-icon path{
+    fill: white
+  }
+  .darks .header, .darks .header .header-menus {
+    color: #fff;
+    background-color: #1D1D1D;
+    transition: ease 1s;
+  }
+  .darks p {
+    color: #fff !important;
+    transition: ease 1s;
+  }
+  .darks .ProductList .card {
+  background-color: #2b2b2b
+  }
+  .darks .ProductList .card button {
+    background-color: #2b2b2b;
+    transition: ease 1s;
+  }
+  .darks  .header .header-nav a {
+    color: #fff;
+    transition: ease 1s;
+  }
+  .darks .button_secondary {
+    color: #fff;
+    transition: ease 1s;
+  }
+  .darks .header .header-menus :before {
+    border-bottom: 1px solid #2b2b2b;
+    transition: ease 1s;
+  }
+  .darks .title_h1, .title_h2 {
+    color: #fff;
+    transition: ease 1s;
+  }
+  .darks .input:invalid.input_invert, .darks .input:valid {
+    background-color: #1D1D1D !important;
+    color: #fff;
+    transition: ease 1s;
+  }
+  .darks .cart__line-name, .darks .amount-control__quantity-value,
+  .darks .money__value,
+  .darks .money__currency.money__currency_on-the-right {
+    color: #fff;
+    transition: ease 1s;
+  }
+  .darks .popup__dialog-inner {
+    color: #fff;
+    background-color: #1D1D1D;
+    transition: ease 1s;
+  }
+  .darks .popup__dialog-close path {
+    fill: white;
+    transition: ease 1s;
+  }
+  
+  .light {
+    background-color: #fdfdfd;
+    transition: ease 1s;
+  }
+  .light .header-first {
+    background-color: #fff;
+    transition: ease 1s;
+  }
+  .light .header, .darks .header .header-menus {
+  
+    transition: ease 1s;
+  }
+  .light p {
+  
+    transition: ease 1s;
+  }
+  .light .ProductList .card button {
+  
+    transition: ease 1s;
+  }
+  .light .header .header-nav a {
+  
+    transition: ease 1s;
+  }
+  .light .button_secondary {
+  
+    transition: ease 1s;
+  }
+  .light .header .header-menus :before {
+  
+    transition: ease 1s;
+  }
+  .light .title_h1, .title_h2 {
+  
+    transition: ease 1s;
+  }
+  .light .input:invalid.input_invert, .input:valid {
+  
+    transition: ease 1s;
+  }
+  .light .cart__line-name, .darks .amount-control__quantity-value,
+  .light .money__value,
+  .light .money__currency.money__currency_on-the-right {
+  
+    transition: ease 1s;
+  }
+  .light .popup__dialog-inner {
+  
+    transition: ease 1s;
+  }
+  .light .popup__dialog-close path {
+  
+    transition: ease 1s;
+  }
+  .chengethame {
+    margin-left: 1em;
+    cursor: pointer;
+  }
+  .cookie {
+    position: fixed;
+      z-index: 100000;
+      bottom: 0px;
+      left: 0px;
+      width: 100%;
+      text-align: center;
+      pointer-events: none;
+  }
+  .cookie p {
+    position: relative;
+      display: inline-block;
+      font-size: 12px;
+  
+      font-weight: 500;
+      text-align: left;
+      background-color: rgba(255, 255, 255, 0.95);
+      pointer-events: auto;
+      margin: 0px 15px 15px;
+      padding: 9px 100px 9px 14px;
+      border-radius: 4px;
+  }
+  
+  .cookie-link {
+    color: #EF7F1A;
+  }
+  .cookie-policy__button {
+      background-color: #EF7F1A !important; 
+    color: #fff !important;
+    width: 80px !important;
+    padding: 3px 5px !important;
+    top: 5px !important;
+    border-radius: 25px;
+  }
+  
+  .apps {
+    background: #eee;
+    display: flex;
+    padding: 1em;
+    
+  }
+  .apps p {
+    margin-top: 1.5em;
+    width: 70%;
+  }
+  
+  .apps_install_button__close {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    position: absolute;
+    left: 9px;
+  
+    display: inline-block;
+    width: 28px;
+    color: #878686;
+    text-align: center
+  }
+  
+  .apps_install_button__close:active,
+  .apps_install_button__close:focus {
+    outline: none
+  }
+  
+  .apps_install_button__inst {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+    position: absolute;
+    right: 15px;
+    top: 35px;
+    padding: 10px;
+    border-radius: 25px;
+    display: inline-block;
+  
+    color: #fff;
+    background-color: #EF7F1A;
+    text-align: center
+  }
+  
+  .apps_install_button__inst:active,
+  .apps_install_button__inst:focus {
+    outline: none
+  }
+
+
+  @import 'header.styles.scss';
+  @import 'slider.styles.scss';
+  @import 'collection-preview.styles.scss';
+  @import 'collection-item.styles.scss';
+  @import 'contact.styles.scss';
+  @import 'footer.styles.scss';
+  @import 'about.styles.scss';
+  @import 'cart-dropdown.styles.scss';
+  @import 'cart-icon.styles 2.scss';
+  @import 'cart-icon.styles.scss';
+  @import 'cart-item.styles.scss';
+  @import 'checkout-item.styles.scss';
+  @import 'checkout-modal-adress.style.scss';
+  @import 'checkout.styles.scss';
+  @import 'custom-buttom.styles.scss';
+  @import 'dilinfo.styles.scss';
+  @import 'form-input.styles.scss';
+  @import 'header-popup-modal.style.scss';
+  @import 'homepage.styles.scss';
+  @import 'legal.styles.scss';
+  @import 'login-index-mobile.styles.scss';
+  @import 'login-index-modal.styles.scss';
+  @import 'main-order-modal.styles.scss';
+  @import 'orderhistory.styles.scss';
+  @import 'orginfo.styles.scss';
+  @import 'policy.styles.scss';
+  @import 'sales.styles.scss';
+  @import 'shop.styles.scss';
+  @import 'sign-in-and-sign-up.styles.scss';
+  @import 'sign-in.styles.scss';
+  @import 'sign-up.styles.scss';
+  @import 'slider-item.styles.scss';
+  @import 'user-form-input.styles.scss';
+  @import 'user.styles.scss';
+  @import 'motivation.scss';
+  @import 'motivation-small.scss';
+  

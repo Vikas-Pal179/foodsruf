@@ -1,0 +1,156 @@
+.popup__dialog {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0px
+  
+}
+.modal-descr {
+  padding: 10px 20px;
+}
+.login-popup {
+	padding: 26px 28px;
+	position: relative;
+}
+
+.login-popup-label{
+  display: block;
+}
+.login-popup__phone{
+  margin-bottom: 1em;
+}
+.login-popup__phone input {
+  margin-top: 1em;
+}
+svg path {
+  fill: black
+}
+.popup__dialog-close {
+  position: absolute;
+  top: 13px;
+  right: 13px;
+	cursor: pointer;
+  transition: transform 0.1s ease-in-out 0s;
+  z-index: 1000;
+
+}
+ 
+@media (min-width: 575.98px){
+  .popup__dialog {
+    width: 400px;
+    margin: 0 auto;
+    padding: 30px 70px
+  }
+  .login-popup {
+    padding: 36px 48px;
+    position: relative;
+  }
+  .login-popup__phone {
+    position: relative;
+    margin-bottom: 35px;
+  }
+  .login-popup-label {
+
+    display: inline-block;
+  }
+  .popup__dialog-close {
+    position: absolute;
+    top: 13px;
+    right: -38px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out 0s;
+    z-index: 1000;
+  
+  }
+}
+
+@media (min-width: 767.98px){
+  .popup__dialog {
+    width: 720px;
+    margin: 0 auto;
+    padding: 30px 70px
+  }
+  .modal-descr {
+    padding: 0;
+  }
+  .login-popup {
+    padding: 36px 48px;
+    position: relative;
+  }
+  .login-popup__phone {
+    position: relative;
+    margin-bottom: 35px;
+  }
+  .login-popup-label {
+
+    display: inline-block;
+  }
+  .popup__dialog-close {
+    position: absolute;
+    top: 13px;
+    right: -38px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out 0s;
+    z-index: 1000;
+  
+  }
+}
+
+@media (min-width: 991.98px) {
+  .popup__dialog {
+
+      width: 860px;
+    
+    margin: 0 auto;
+    padding: 30px 70px
+  }
+  .login-popup {
+    padding: 36px 48px;
+    position: relative;
+  }
+  .login-popup__phone {
+    position: relative;
+    margin-bottom: 35px;
+  }
+  .login-popup-label {
+
+    display: inline-block;
+  }
+  .popup__dialog-close {
+    position: absolute;
+    top: 13px;
+    right: -38px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out 0s;
+    z-index: 1000;
+  
+  }
+}
+
+@media (min-width: 1199.98px){
+  .popup__dialog {
+    width: 860px;
+    margin: 0 auto;
+    padding: 30px 70px
+  }
+  .login-popup {
+    padding: 36px 48px;
+    position: relative;
+  }
+  .login-popup__phone {
+    position: relative;
+    margin-bottom: 35px;
+  }
+  .login-popup-label {
+
+    display: inline-block;
+  }
+  .popup__dialog-close {
+    position: absolute;
+    top: 13px;
+    right: -38px;
+    cursor: pointer;
+    transition: transform 0.1s ease-in-out 0s;
+    z-index: 1000;
+  
+  }
+}

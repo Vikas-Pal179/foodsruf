@@ -1,0 +1,79 @@
+
+.cartButtonMobile {
+  display: none;
+}
+@media only screen and (max-width:1439px) {
+}
+
+@media only screen and (max-width:1264px) {
+ 
+}
+@media only screen and (max-width:960px) {
+ 
+}
+@media only screen and (max-width:768px) {
+  .cart-icon {
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 2em;
+    right: 2em;
+    background-color: #EF7F1A;
+    
+    cursor: pointer;
+  
+    .shopping-icon {
+      width: 24px;
+      height: 24px;
+    }
+  
+    .item-count {
+      color: #fff;
+      position: absolute;
+      font-size: 10px;
+      font-weight: bold;
+      bottom: 12px;
+    }
+  }
+  .cartButtonMobile {
+    display: block;
+    bottom: 2em;
+    right: 2em;
+    width: 5em;
+    height: 5em;
+    background-color: #EF7F1A;
+    background-image: url('/static/svg/menucart.svg');
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    z-index: 100;
+    text-align: center;
+    padding: 20px 0;
+  
+  
+    border-radius: 50px;
+  }
+  .header-btn p{
+    color: #EF7F1A;
+    transition: color .25s ease,padding .25s ease;
+  
+    &:hover {
+      background-color: rgb(209, 112, 27);
+      color: white;
+  
+      
+    }
+  }
+  .busket {
+    color: #fff;
+    margin-left: -0.5em;
+	margin-top: 20px;
+  }
+}
+@media only screen and (max-width:576px) {
+  
+}

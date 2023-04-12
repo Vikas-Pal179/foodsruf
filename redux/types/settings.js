@@ -1,0 +1,10 @@
+const SettingsActionTypes = {
+    MAIN_ORDER_MODAL: 'MAIN_ORDER_MODAL',
+    MAIN_ORDER_MODAL_ITEM: 'MAIN_ORDER_MODAL_ITEM',
+    TOGGLE_MENU_HIDDEN: 'TOGGLE_MENU_HIDDEN',
+    GIFTS_SELECT: 'GIFTS_SELECT',
+    MOTIV_LIST:'MOTIV_LIST'
+  };
+  
+  export default SettingsActionTypes;
+  

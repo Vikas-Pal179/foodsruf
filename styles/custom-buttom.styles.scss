@@ -1,0 +1,37 @@
+.custom-button {
+  min-width: 165px;
+  width: auto;
+  height: 50px;
+  letter-spacing: 0.5px;
+  line-height: 50px;
+  padding: 0 35px 0 35px;
+  font-size: 15px;
+  background-color: #EF7F1A;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  transition: color .25s ease,padding .25s ease;
+
+  &:hover {
+    background-color: rgb(209, 112, 27);
+    color: white;
+    border: 1px solid rgb(209, 112, 27);
+    transition: color .25s ease,padding .25s ease;
+  }
+
+  &.inverted {
+    background-color: white;
+    color: #EF7F1A;
+    border: 1px solid #EF7F1A;
+
+    &:hover {
+      background-color: #EF7F1A;
+      color: white;
+      border: none;
+    }
+  }
+}

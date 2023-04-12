@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Delete</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Screens" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="10-1.-GS-/-Mob-/-Checkout-/-States" transform="translate(-1594.000000, -959.000000)">
+            <g id="Adress-&amp;-Phone" transform="translate(1285.000000, 858.000000)">
+                <g id="Delete" transform="translate(309.000000, 101.000000)">
+                    <rect id="Rectangle-4" stroke="#FFB47F" x="0.5" y="0.5" width="23" height="23" rx="11.5"></rect>
+                    <path d="M13.0622236,12 L16.7800063,8.28221733 C17.0733312,7.98889238 17.0733312,7.51331867 16.7800063,7.21999371 C16.4866813,6.92666876 16.0111076,6.92666876 15.7177827,7.21999371 L12,10.9377764 L8.28221733,7.21999371 C7.98889238,6.92666876 7.51331867,6.92666876 7.21999371,7.21999371 C6.92666876,7.51331867 6.92666876,7.98889238 7.21999371,8.28221733 L10.9377764,12 L7.21999371,15.7177827 C6.92666876,16.0111076 6.92666876,16.4866813 7.21999371,16.7800063 C7.51331867,17.0733312 7.98889238,17.0733312 8.28221733,16.7800063 L12,13.0622236 L15.7177827,16.7800063 C16.0111076,17.0733312 16.4866813,17.0733312 16.7800063,16.7800063 C17.0733312,16.4866813 17.0733312,16.0111076 16.7800063,15.7177827 L13.0622236,12 Z" id="Combined-Shape" fill="#FF6900"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

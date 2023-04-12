@@ -1,0 +1,338 @@
+.user {
+  padding: 2em 0;
+  background-color: #fff;
+  .user__row {
+    padding: 8px 0;
+    margin-bottom: 5px;
+    height: 50px;
+  }
+
+  .user__label {
+      width: 25%;
+      float: left;
+  }
+  .user__value {
+      width: 70%;
+      float: left;
+      margin-left: 3%;
+      position: relative;
+  }
+  .user__edit-link {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  .link_dashed{
+    border-bottom: 1px dashed #EF7F1A;
+  }
+  .link{
+    text-decoration: none;
+    color: #EF7F1A;
+    cursor: pointer;
+  }
+  .hidden {
+    display: none;
+  }
+}
+.history-btn {
+  margin-left: 1em !important;
+}
+
+.profile__content {
+  margin-top: 20px
+}
+
+.profile__errors {
+  margin-top: 10px
+}
+
+.profile__row {
+  padding: 8px 0;
+  margin-bottom: 5px;
+  height: 40px
+}
+
+.profile__label {
+  width: 25%;
+  float: left
+}
+
+.profile__value {
+  width: 70%;
+  float: left;
+  margin-left: 3%;
+  position: relative
+}
+
+.profile__value-edit {
+  margin-top: -9px
+}
+
+.profile__value-edit-birthday-day {
+  width: 20%;
+  display: inline-block
+}
+
+.profile__value-edit-birthday-day .select__control {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  width: calc(100% + 1px);
+  background: none
+}
+
+.profile__value-edit-birthday-day .select__drop {
+  width: calc(100% + 5px)
+}
+
+.profile__value-edit-birthday-month {
+  width: 30%;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.profile__value-edit-birthday-month .select__control {
+  border-radius: 0 10px 10px 0;
+  background: none
+}
+
+.profile__value-edit-birthday-month .select__drop {
+  width: calc(100% + 10px);
+  margin-left: -5px
+}
+
+.profile__edit-link {
+  margin-left: 10px;
+  font-size: 14px;
+  font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Oxygen-Sans, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-weight: 500
+}
+
+.profile__remark {
+  color: #878686;
+  font-size: 14px;
+  margin-top: 5px
+}
+
+.profile__input {
+  display: inline-block;
+  width: 70%;
+  
+
+}
+
+.profile__input__info {
+  margin-bottom: 10px;
+  font-size: 13px;
+  color: #878686
+}
+
+.profile__button {
+  height: 40px;
+  padding: 0 15px;
+  
+
+}
+
+.profile__info-switch {
+  position: relative;
+  display: inline-block;
+  margin: 0 0 -5px 6px;
+  width: 20px;
+  height: 20px;
+  outline: none;
+  touch-action: manipulation;
+  cursor: pointer;
+  color: #878686;
+  font-size: 12px;
+  line-height: 1;
+  font-style: normal;
+  background-image: url(/static/svg/58e06758f49b66af98c4.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  border-radius: 50px
+}
+
+.profile__info-switch:hover .profile__info-text {
+  display: block
+}
+
+.profile__info-text {
+  background: rgba(55, 53, 53, .87);
+  color: #fff;
+  position: absolute;
+  left: 35px;
+  top: -19px;
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.2;
+  width: 300px;
+  z-index: 99;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Oxygen-Sans, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  display: none;
+  -webkit-transition: all .25s ease-out;
+  transition: all .25s ease-out
+}
+
+.profile__info-text:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 25px;
+  left: -10px;
+  margin: -8px 0 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid rgba(55, 53, 53, .87)
+}
+
+.profile__actions {
+  margin-top: 40px
+}
+
+.profile__actions:after {
+  content: " ";
+  display: block;
+  clear: both
+}
+
+.profile__card {
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 10px;
+  font-family: Roboto, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Oxygen-Sans, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  font-weight: 500
+}
+
+.profile__card-number {
+  display: inline-block;
+  width: 25%
+}
+
+.profile__card .button {
+  margin-left: 3%
+}
+
+.profile__subscription {
+  margin-left: 28%
+}
+.button_no-left-radius {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0
+}
+.UserInput {
+  display: inline-flex;
+}
+.UserInputSpan {
+  width: 50%;
+  
+}
+@media only screen and (max-width:1439px) {
+}
+
+@media only screen and (max-width:1264px) {
+ 
+}
+@media only screen and (max-width:960px) {
+ 
+}
+@media only screen and (max-width:768px) {
+  .user {
+    .user__label {
+        width: 100%;
+        float: left;
+        margin-bottom: 0.3em;
+    }
+    .user__value {
+        width: 100%;
+        float: left;
+        margin-left: 0%;
+        margin-bottom: 1em;
+        position: relative;
+    }
+    .profile__value-edit {
+      margin: 0;
+    }
+    .button {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+    .profile__input__info {
+      display: none;
+    }
+    .profile__input {
+      margin-top: 1em;
+    }
+  }
+  .profile__value-edit-birthday-day, .profile__value-edit-birthday-month, .profile__button {
+    width: 100%;
+    
+  }
+  .profile__value-edit-birthday-day .select__control, .profile__value-edit-birthday-month .select__control {
+    border-radius: 8px;
+  
+    margin-bottom: 0.5em;
+  }
+  .button_no-left-radius {
+    border-radius: 8px;
+  }
+  .history-btn {
+    margin-left: 0 !important;
+  }
+  
+  
+  
+
+  
+  .UserInput {
+    display: block;
+  }
+}
+@media only screen and (max-width:576px) {
+  .user {
+  .user__label {
+      width: 100%;
+      float: left;
+      margin-bottom: 0.3em;
+  }
+  .user__value {
+      width: 100%;
+      float: left;
+      margin-left: 0%;
+      margin-bottom: 1em;
+      position: relative;
+  }
+  .profile__value-edit {
+    margin: 0;
+  }
+  .button {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em; 
+  }
+  .profile__input__info {
+    display: none;
+  }
+  .profile__input {
+    margin-top: 1em;
+  }
+}
+.profile__value-edit-birthday-day, .profile__value-edit-birthday-month, .profile__button {
+  width: 100%;
+  
+}
+.profile__value-edit-birthday-day .select__control, .profile__value-edit-birthday-month .select__control {
+  border-radius: 8px;
+
+  margin-bottom: 0.5em;
+}
+.button_no-left-radius {
+  border-radius: 8px;
+}
+.UserInput {
+  display: block;
+}
+.UserInputSpan {
+  width: 100%;
+  
+}
+}

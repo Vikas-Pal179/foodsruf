@@ -1,0 +1,30 @@
+<!-- DODO_Loader -->
+<svg width="120" height="30" viewBox="0 0 120 30" xmlns="http://www.w3.org/2000/svg">
+    <g id="loader-for-buttons" fill="#FF6900">
+         <circle cx="15" cy="15" r="3">
+            <animate id="ani_circle_1" 
+                     attributeName="r" 
+                     begin="0;ani_circle_1.end+0.6s" 
+                     dur="0.9s" 
+                     values="3; 15; 3" 
+                     calcMode="ease-in-out" 
+                     />
+        </circle>
+        <circle cx="60" cy="15" r="3">
+            <animate id="ani_circle_2" 
+                     attributeName="r" 
+                     begin="0.225s;ani_circle_2.end+0.6s" 
+                     dur="0.9s" 
+                     values="3; 15; 3" 
+                     calcMode="ease-in-out" />
+        </circle>
+        <circle cx="105" cy="15" r="3">
+            <animate id="ani_circle_3" 
+                     attributeName="r" 
+                     begin="0.45s;ani_circle_3.end+0.6s" 
+                     dur="0.9s" 
+                     values="3; 15; 3" 
+                     calcMode="ease-in-out" />
+        </circle>   
+    </g>
+</svg>

@@ -1,0 +1,32 @@
+.cart-icon {
+  width: 45px;
+  height: 45px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  .shopping-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .item-count {
+    position: absolute;
+    font-size: 10px;
+    font-weight: bold;
+    bottom: 12px;
+  }
+}
+.header-btn p{
+  color: #EF7F1A;
+  transition: color .25s ease,padding .25s ease;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(209, 112, 27);
+    color: white;
+
+    
+  }
+}
