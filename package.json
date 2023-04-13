@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
-    "start": "next start --port 3002",
-    "export": "next build && next export"
+    "build": "next build && next export",
+    "start": "next start --port 3002"
   },
   "dependencies": {
     "axios": "^0.27.2",
